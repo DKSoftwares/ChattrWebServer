@@ -1,0 +1,28 @@
+{
+    "name": "chattr-server",
+    "version": "1.0.0",
+    "description": "Chat application using Socket.IO for comunication.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DKSSoftwares/Chattr.Server.git"
+    },
+    "keywords": [
+        "socket.io",
+        "chattr"
+    ],
+    "author": "Renan Serrão Nogueira",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DKSSoftwares/Chattr.Server/issues"
+    },
+    "homepage": "https://github.com/DKSSoftwares/Chattr.Server#readme",
+    "dependencies": {
+        "@risingstack/trace": "^3.14.0",
+        "express": "^4.15.3",
+        "socket.io": "^2.0.3"
+    }
+}
